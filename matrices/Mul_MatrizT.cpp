@@ -27,6 +27,17 @@ void multiply(vector<vector<int> > &M1, vector<vector<int> > &M2, vector<vector<
 }
 
 
+void getMT(vector<vector<int> > &M, int fila, int columna){
+    // Obtiene la matriz a traves de consola, 
+    // pero la obtiene de tal manera que quedará 
+    // la matriz transpuesta
+    
+    for(int i = 0; i < columna; i++){
+        for(int j = 0; j < fila; j++){
+            cin >> M[j][i];
+        }
+    }
+}
 
 
 int main(){

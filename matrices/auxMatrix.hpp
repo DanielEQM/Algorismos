@@ -21,17 +21,6 @@ void getM(vector<vector<int> > &M, int fila, int columna){
     }
 }
 
-void getMT(vector<vector<int> > &M, int fila, int columna){
-    // Obtiene la matriz a traves de consola, 
-    // pero la obtiene de tal manera que quedará 
-    // la matriz transpuesta
-    
-    for(int i = 0; i < columna; i++){
-        for(int j = 0; j < fila; j++){
-            cin >> M[j][i];
-        }
-    }
-}
 
 void print(vector<vector<int> > &M, int fila, int columna, string name){
     // Genera un archivo .txt donde estaran las 
